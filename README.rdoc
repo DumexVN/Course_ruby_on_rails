@@ -1,2 +1,1 @@
-Learning Materials/Practices w Ruby on Rails on Coursera
-See: https://www.coursera.org/learn/ruby-on-rails-intro/
+https://www.coursera.org/learn/ruby-on-rails-intro/
