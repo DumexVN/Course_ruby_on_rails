@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
-  get 'greeter/hello' => "greeter#goodbye"
-  get 'greeter/goodbye'
+  get 'courses/index'
+
+  get 'greeter/hello'
+
+  get 'greeter/hello' => "greeter#hello"
+  get 'greeter/goodbye' => "greeter#goodbye"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'courses#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
